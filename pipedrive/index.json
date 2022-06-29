@@ -1,0 +1,32 @@
+{
+  "name": "pipedriveDemo",
+  "description": "testing",
+  "triggers": [
+    "/v1/new_product"
+  ],
+  "actions": [
+    "/v0/get_all_deals",
+    "/v1/add_product"
+  ],
+  "version": 1,
+  "auth_type": "apikey",
+  "doc_link": "",
+  "appId": "9245b257-69ce-4fe5-a52b-3d4ce1474d57",
+  "guid": "e6688813-e726-4f5e-a5ce-b6604edaf9c6",
+  "connectionUid": "pipedrive2_1655387415571",
+  "lookup": true,
+  "lookup_attachments": [
+    {
+      "lookup_id": "owner_id",
+      "action_id": "/v1/add_product",
+      "field_id": "owner_id",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "deal_id",
+      "action_id": "/v0/get_all_deals",
+      "field_id": "Deal id",
+      "dependencies": []
+    }
+  ]
+}

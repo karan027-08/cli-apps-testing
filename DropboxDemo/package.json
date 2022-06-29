@@ -1,0 +1,10 @@
+{
+  "name": "dropbox_demo1",
+  "version": "1.0.0",
+  "description": "DropboxDemo",
+  "dependencies": {
+    "@webmethodsio/cli-sdk": "*",
+    "dropbox": "^10.31.0",
+    "request": "2.55.0"
+  }
+}

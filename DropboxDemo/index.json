@@ -1,0 +1,13 @@
+{
+  "name": "dropbox_demo1",
+  "description": "DropboxDemo",
+  "triggers": [
+    "/v0/new_file"
+  ],
+  "actions": [],
+  "version": 1,
+  "auth_type": "apikey",
+  "doc_link": "",
+  "appId": "2a1ce2b1-cdd1-4746-a839-1b30348ecff7",
+  "guid": "7b3841f6-1a69-4cea-a20a-ea45ccf08dab"
+}
