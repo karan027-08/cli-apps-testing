@@ -1,0 +1,9 @@
+{
+  "name": "wrike_demo",
+  "version": "1.0.0",
+  "description": "Wrike_demo",
+  "dependencies": {
+    "request": "2.55.0",
+    "@webmethodsio/cli-sdk": "*"
+  }
+}

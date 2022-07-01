@@ -1,0 +1,15 @@
+{
+  "name": "Wrike_demo",
+  "description": "Wrike_demo",
+  "triggers": [],
+  "actions": [
+    "/v0/get_task"
+  ],
+  "version": 1,
+  "auth_type": "oauth",
+  "doc_link": "",
+  "oauth_provider": "wrike_test_9b26d99939",
+  "appId": "1428b4b1-85e3-4f29-aa41-195f81964684",
+  "guid": "3791c05e-3e8f-46ce-baca-8c78f5a30f50",
+  "oauthStatus": "deployed"
+}
